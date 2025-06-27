@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Hey%20there!%20👋&type=waving&color=gradient&height=100" alt="Header banner with greeting - Hey there! Welcome to Franklin Martinez's GitHub Profile"/>
+  <img src="https://capsule-render.vercel.app/api?text=Hey%20there!%20👋&animation=wave&type=waving&color=gradient&height=100" alt="Header banner with greeting - Hey there! Welcome to Franklin Martinez's GitHub Profile"/>
 </div>
 
 <h1 align="center">Franklin Martinez</h1>
