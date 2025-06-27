@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Hey%20there!%20👋&animation=fadeIn&type=waving&color=gradient&height=100"/>
+  <img src="https://capsule-render.vercel.app/api?text=Hey%20there!%20👋&type=waving&color=gradient&height=100" alt="Header banner with greeting - Hey there! Welcome to Franklin Martinez's GitHub Profile"/>
 </div>
 
 <h1 align="center">Franklin Martinez</h1>
@@ -141,7 +141,7 @@ I'm always interested in discussing new opportunities, collaborating on exciting
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer decorative banner"/>
 </div>
 
 <div align="center">
