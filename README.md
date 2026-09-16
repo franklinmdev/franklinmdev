@@ -1,153 +1,30 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Hey%20there!%20👋&animation=wave&type=waving&color=gradient&fontColor=ffffff&height=100" alt="Header banner with greeting - Hey there! Welcome to Franklin Martinez's GitHub Profile"/>
-</div>
+### Franklin Martinez
 
-<h1 align="center">Franklin Martinez</h1>
-<h3 align="center">Software Engineer & Web Developer</h3>
+Software engineer in the Dominican Republic. I've spent the last three and a half years at Nubeteck building business software with TypeScript, React and .NET. Since February 2026 I work there as a Full-Stack AI Engineer, and outside of work I'm building LLM systems that get judged by benchmarks instead of demos.
 
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/franklin-martinez-0a697a253/)
-  [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/franklinmdev?t=o5hz1Urd1CvAxYTaEnrlUg&s=08)
-  [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:franklinmdev@hotmail.com)
-  
-</div>
+[franklinmdev.me](https://franklinmdev.me) · [LinkedIn](https://www.linkedin.com/in/franklin-martinez-0a697a253/) · [franklinmdev@hotmail.com](mailto:franklinmdev@hotmail.com)
 
----
+#### Projects
 
-## 🚀 About Me
+**[docmatch](https://github.com/franklinmdev/docmatch)**, Python, in progress
 
-```yaml
-name: Franklin Martinez
-located_in: Dominican Republic 🇩🇴
-current_job: Software Engineer at Nubeteck, SRL
-education: ["Computer Science", "Web Development"]
-fields_of_interests: ["Web Development", "Frontend Engineering", "Full Stack Development", "Artificial Intelligence", "Machine Learning"]
-technical_background: ["React", "TypeScript", "Next.js", "JavaScript", "Node.js"]
-currently_learning: ["Machine Learning Crash Course", "Neural Networks & Backpropagation: Building Micrograd", "ChatGPT Prompt Engineering for Developers", "MCP: Build Rich-Context AI Apps with Anthropic"]
-hobbies: ["Coding", "Learning New Technologies", "Open Source Contributing"]
-```
+Invoice reconciliation for accounts payable. Vision models read the invoice, deterministic code checks the totals and matches it against the purchase order and the receiving record, and anything that doesn't add up goes to a person for review. Each extraction backend is scored on a fixed set of 100 labeled documents, and every row in the benchmark table links the commit that produced it. Right now Gemini 3.1 Flash-Lite reaches 0.615 field F1 at $0.002 per document, against 0.556 at $0.011 for Azure's prebuilt invoice model.
 
-### 💫 Highlights
+**[dgii-ts](https://github.com/franklinmdev/dgii-ts)**, TypeScript, [on npm](https://www.npmjs.com/package/dgii-ts)
 
-- 🔭 **3+ years** of experience in software engineering and web development
-- 🌱 Specialized in **React**, **TypeScript**, and **Next.js**
-- 💼 Currently working at **Nubeteck, SRL**
-- 🎯 Passionate about creating efficient, scalable web applications
-- 🌍 Based in **Dominican Republic**
-- 📚 Always learning and exploring new technologies
+Library for working with the DGII, the Dominican tax authority. It validates RNC, cédula, NCF and e-NCF numbers offline, and looks up taxpayers by scraping DGII's web pages with retries and a circuit breaker, because DGII has no public API and shut down its SOAP service in January 2025.
 
----
+**[DomiProp](https://domiprop.com.do)**, TypeScript, private repo
 
-## 🛠️ Tech Stack
+Rental management for Dominican landlords: expense tracking, the monthly 606 purchase report, lease contracts under Ley 85-25, and reminders before tax deadlines. Next.js, NestJS, Prisma and PostgreSQL.
 
-### Frontend
+#### Tools
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- **Product work:** TypeScript, React, Next.js, Node.js, NestJS, ASP.NET, PostgreSQL, SQL Server
+- **AI work:** Python, Pydantic, pytest, Gemini API, Azure Document Intelligence, Claude Code and MCP
 
-### Backend & Database
+#### Recent courses
 
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-
-### Tools & Technologies
-
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Microsoft To Do](https://img.shields.io/badge/Microsoft_To_Do-6264A7?style=for-the-badge&logo=microsoft&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-| <img src="https://github-readme-stats.vercel.app/api?username=franklinmdev&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="GitHub Stats" /> | <img src="https://github-readme-streak-stats-eight.vercel.app/?user=franklinmdev&theme=dark&hide_border=false&v=2" alt="GitHub Streak" /> |
-|:---:|:---:|
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=franklinmdev&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
-</div>
-
----
-
-## 🏆 Featured Projects
-
-### 🌟 DevFlow - Developer Q&A Platform
-
-A comprehensive Q&A platform built with Next.js, designed specifically for developers to share knowledge and solve coding challenges.
-
-- **Tech Stack:** Next.js, TypeScript, MongoDB, TailwindCSS
-- **Features:** User authentication, question posting, voting system, search functionality
-- **[Live Demo](https://devflow-git-main-themvprogrammers-projects.vercel.app/)** | **[GitHub Repo](https://github.com/franklinmdev/devflow)**
-
----
-
-## 🎯 Current Focus
-
-- 🔍 **Learning:** Artificial Intelligence, Machine Learning, and Neural Networks
-- 🤖 **Exploring:** ChatGPT Prompt Engineering and AI Application Development
-- 💡 **Building:** Scalable web applications with React, TypeScript, and Next.js
-- 🤝 **Open to:** Collaboration on full-stack development and innovative web projects
-- 📈 **Growing:** My expertise in AI integration and modern web technologies
-
----
-
-## 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=franklinmdev&theme=react-dark&hide_border=true" alt="Activity Graph" />
-</div>
-
----
-
-## 🏅 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=franklinmdev&theme=radical&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
-</div>
-
----
-
-## 💬 Let's Connect
-
-I'm always interested in discussing new opportunities, collaborating on exciting projects, or just chatting about technology and development. Feel free to reach out!
-
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/franklin-martinez-0a697a253/)
-  [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:franklinmdev@hotmail.com)
-  [![X](https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x)](https://x.com/franklinmdev?t=o5hz1Urd1CvAxYTaEnrlUg&s=08)
-  
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer decorative banner"/>
-</div>
-
-<div align="center">
-  
-  **"Great code is like a championship team - every function has its role, every variable matters, and execution wins the game."** - Franklin Martinez
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=franklinmdev&color=brightgreen&style=flat-square)
-  
-</div>
+- Associate Python Developer, DataCamp, 2026
+- query.gg and react.gg, ui.dev, 2025 and 2026
+- The Ultimate Next.js 15 Course, JavaScript Mastery, 2025
