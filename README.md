@@ -6,13 +6,17 @@ Software engineer in the Dominican Republic. I've spent the last three and a hal
 
 #### Projects
 
+**[justask](https://github.com/franklinmdev/justask)**, TypeScript, [live demo](https://justask-demo.franklinmdev.workers.dev) · [on npm](https://www.npmjs.com/package/@justask/core)
+
+Turns what a person types into an app's own state: search results, table filters, a filled record card. Code finds the candidates, a model picks one per question with a probability for every option, and a field it isn't sure of stays empty for the person to fill. Every change to how it asks goes through an eval round with rules fixed before the first call.
+
 **[docmatch](https://github.com/franklinmdev/docmatch)**, Python, in progress
 
-Invoice reconciliation for accounts payable. Vision models read the invoice, deterministic code checks the totals and matches it against the purchase order and the receiving record, and anything that doesn't add up goes to a person for review. Each extraction backend is scored on a fixed set of 100 labeled documents, and every row in the benchmark table links the commit that produced it. Right now Gemini 3.1 Flash-Lite reaches 0.615 field F1 at $0.002 per document, against 0.556 at $0.011 for Azure's prebuilt invoice model.
+Invoice reconciliation for accounts payable. Vision models read the invoice, deterministic code checks the totals and matches it against the purchase order and the receiving record, and anything that doesn't add up goes to a person for review. Extraction, matching, entity resolution and the review pipeline are done, each with its number in a benchmark table that links the commit that produced it, and a CI gate fails any pull request that lowers F1. Right now Gemini 3.1 Flash-Lite reaches 0.615 field F1 at $0.002 per document, against 0.556 at $0.011 for Azure's prebuilt invoice model.
 
 **[dgii-ts](https://github.com/franklinmdev/dgii-ts)**, TypeScript, [on npm](https://www.npmjs.com/package/dgii-ts)
 
-Library for working with the DGII, the Dominican tax authority. It validates RNC, cédula, NCF and e-NCF numbers offline, and looks up taxpayers by scraping DGII's web pages with retries and a circuit breaker, because DGII has no public API and shut down its SOAP service in January 2025.
+Library for working with the DGII, the Dominican tax authority. It validates RNC, cédula, NCF and e-NCF numbers offline, and looks up taxpayers by scraping DGII's web pages with retries and a circuit breaker, because DGII has no public API and shut down its SOAP service in January 2025. It also ships an agent skill, so coding agents learn the library with `npx skills add franklinmdev/dgii-ts --skill dgii-ts`.
 
 **[DomiProp](https://domiprop.com.do)**, TypeScript, private repo
 
@@ -20,7 +24,7 @@ Rental management for Dominican landlords: expense tracking, the monthly 606 pur
 
 #### Tools
 
-- **Product work:** TypeScript, React, Next.js, Node.js, NestJS, ASP.NET, PostgreSQL, SQL Server
+- **Product work:** TypeScript, React, Next.js, Node.js, NestJS, ASP.NET, PostgreSQL, SQL Server, Cloudflare Workers
 - **AI work:** Python, Pydantic, pytest, Gemini API, Azure Document Intelligence, Claude Code and MCP
 
 #### Recent courses
