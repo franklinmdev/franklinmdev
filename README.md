@@ -35,4 +35,4 @@ Rental management for Dominican landlords: expense tracking, the monthly 606 pur
 
 #### Outside work
 
-I run [Arkhelon](https://www.youtube.com/@arkhelon), a YouTube channel that tells the world's oldest stories: myths, monsters and legendary history. The production pipeline behind it is mine too, in Python and Remotion: every claim in a script links its source, every name the narrator says has a checked pronunciation, and each episode stops before it spends past its budget on paid models.
+Outside work I play basketball and run [Arkhelon](https://www.youtube.com/@arkhelon), a YouTube channel about myths and legendary history.
