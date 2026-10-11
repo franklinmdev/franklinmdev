@@ -32,3 +32,7 @@ Rental management for Dominican landlords: expense tracking, the monthly 606 pur
 - Associate Python Developer, DataCamp, 2026
 - query.gg and react.gg, ui.dev, 2025 and 2026
 - The Ultimate Next.js 15 Course, JavaScript Mastery, 2025
+
+#### Outside work
+
+I run [Arkhelon](https://www.youtube.com/@arkhelon), a YouTube channel that tells the world's oldest stories: myths, monsters and legendary history. The production pipeline behind it is mine too, in Python and Remotion: every claim in a script links its source, every name the narrator says has a checked pronunciation, and each episode stops before it spends past its budget on paid models.
